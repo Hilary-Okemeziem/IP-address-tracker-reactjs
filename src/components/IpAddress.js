@@ -92,7 +92,7 @@ const IpAddress = () => {
 
             <div className='absolute z-50 w-full top-[10rem] lg:top-[12rem] md:top-[12rem] px-2'>
                 {error ? (
-                    <div className='text-3xl text-red-500 text-center max-w-[900px] m-auto px-2'>{error}</div>
+                    <div className='text-3xl text-red-500 text-center max-w-[900px] mx-auto px-2'>{error}</div>
                     ) : (
                     <div className='max-w-[900px] m-auto items-center px-2 z-50'>
                         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-4 bg-white rounded-lg p-4 w-full shadow-md'>
